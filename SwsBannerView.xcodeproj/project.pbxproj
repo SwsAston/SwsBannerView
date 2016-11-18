@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA2405861DDD3996003A3259 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2405851DDD3996003A3259 /* main.m */; };
+		DA2405891DDD3996003A3259 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2405881DDD3996003A3259 /* AppDelegate.m */; };
+		DA24058C1DDD3996003A3259 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA24058B1DDD3996003A3259 /* ViewController.m */; };
+		DA24058F1DDD3996003A3259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA24058D1DDD3996003A3259 /* Main.storyboard */; };
+		DA2405911DDD3996003A3259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2405901DDD3996003A3259 /* Assets.xcassets */; };
+		DA2405941DDD3996003A3259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2405921DDD3996003A3259 /* LaunchScreen.storyboard */; };
+		DA24059F1DDD3996003A3259 /* SwsBannerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA24059E1DDD3996003A3259 /* SwsBannerViewTests.m */; };
+		DA2405AA1DDD3996003A3259 /* SwsBannerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2405A91DDD3996003A3259 /* SwsBannerViewUITests.m */; };
+		DA2405B91DDD39AC003A3259 /* SwsBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2405B81DDD39AC003A3259 /* SwsBannerView.m */; };
+		DA2405BE1DDD3B4A003A3259 /* BannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2405BD1DDD3B4A003A3259 /* BannerModel.m */; };
+		DA2405C51DDDA9BB003A3259 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA2405BF1DDDA9BB003A3259 /* 1.jpg */; };
+		DA2405C61DDDA9BB003A3259 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA2405C01DDDA9BB003A3259 /* 2.jpg */; };
+		DA2405C71DDDA9BB003A3259 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA2405C11DDDA9BB003A3259 /* 3.jpg */; };
+		DA2405C81DDDA9BB003A3259 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA2405C21DDDA9BB003A3259 /* 4.jpg */; };
+		DA2405C91DDDA9BB003A3259 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA2405C31DDDA9BB003A3259 /* 5.jpg */; };
+		DA2405CA1DDDA9BB003A3259 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA2405C41DDDA9BB003A3259 /* 0.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA24059B1DDD3996003A3259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA2405791DDD3996003A3259 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA2405801DDD3996003A3259;
+			remoteInfo = SwsBannerView;
+		};
+		DA2405A61DDD3996003A3259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA2405791DDD3996003A3259 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA2405801DDD3996003A3259;
+			remoteInfo = SwsBannerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA2405811DDD3996003A3259 /* SwsBannerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwsBannerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2405851DDD3996003A3259 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA2405871DDD3996003A3259 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA2405881DDD3996003A3259 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA24058A1DDD3996003A3259 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA24058B1DDD3996003A3259 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA24058E1DDD3996003A3259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA2405901DDD3996003A3259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA2405931DDD3996003A3259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA2405951DDD3996003A3259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA24059A1DDD3996003A3259 /* SwsBannerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwsBannerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA24059E1DDD3996003A3259 /* SwsBannerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwsBannerViewTests.m; sourceTree = "<group>"; };
+		DA2405A01DDD3996003A3259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2405A51DDD3996003A3259 /* SwsBannerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwsBannerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2405A91DDD3996003A3259 /* SwsBannerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwsBannerViewUITests.m; sourceTree = "<group>"; };
+		DA2405AB1DDD3996003A3259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2405B71DDD39AC003A3259 /* SwsBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwsBannerView.h; sourceTree = "<group>"; };
+		DA2405B81DDD39AC003A3259 /* SwsBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwsBannerView.m; sourceTree = "<group>"; };
+		DA2405BC1DDD3B4A003A3259 /* BannerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerModel.h; sourceTree = "<group>"; };
+		DA2405BD1DDD3B4A003A3259 /* BannerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerModel.m; sourceTree = "<group>"; };
+		DA2405BF1DDDA9BB003A3259 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		DA2405C01DDDA9BB003A3259 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		DA2405C11DDDA9BB003A3259 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		DA2405C21DDDA9BB003A3259 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		DA2405C31DDDA9BB003A3259 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		DA2405C41DDDA9BB003A3259 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA24057E1DDD3996003A3259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2405971DDD3996003A3259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2405A21DDD3996003A3259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA2405781DDD3996003A3259 = {
+			isa = PBXGroup;
+			children = (
+				DA2405831DDD3996003A3259 /* SwsBannerView */,
+				DA24059D1DDD3996003A3259 /* SwsBannerViewTests */,
+				DA2405A81DDD3996003A3259 /* SwsBannerViewUITests */,
+				DA2405821DDD3996003A3259 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA2405821DDD3996003A3259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA2405811DDD3996003A3259 /* SwsBannerView.app */,
+				DA24059A1DDD3996003A3259 /* SwsBannerViewTests.xctest */,
+				DA2405A51DDD3996003A3259 /* SwsBannerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA2405831DDD3996003A3259 /* SwsBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				DA2405CB1DDDADE1003A3259 /* Images */,
+				DA2405871DDD3996003A3259 /* AppDelegate.h */,
+				DA2405881DDD3996003A3259 /* AppDelegate.m */,
+				DA24058A1DDD3996003A3259 /* ViewController.h */,
+				DA24058B1DDD3996003A3259 /* ViewController.m */,
+				DA2405BB1DDD3B2D003A3259 /* Model */,
+				DA2405BA1DDD39B3003A3259 /* BannerView */,
+				DA24058D1DDD3996003A3259 /* Main.storyboard */,
+				DA2405901DDD3996003A3259 /* Assets.xcassets */,
+				DA2405921DDD3996003A3259 /* LaunchScreen.storyboard */,
+				DA2405951DDD3996003A3259 /* Info.plist */,
+				DA2405841DDD3996003A3259 /* Supporting Files */,
+			);
+			path = SwsBannerView;
+			sourceTree = "<group>";
+		};
+		DA2405841DDD3996003A3259 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA2405851DDD3996003A3259 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA24059D1DDD3996003A3259 /* SwsBannerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA24059E1DDD3996003A3259 /* SwsBannerViewTests.m */,
+				DA2405A01DDD3996003A3259 /* Info.plist */,
+			);
+			path = SwsBannerViewTests;
+			sourceTree = "<group>";
+		};
+		DA2405A81DDD3996003A3259 /* SwsBannerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA2405A91DDD3996003A3259 /* SwsBannerViewUITests.m */,
+				DA2405AB1DDD3996003A3259 /* Info.plist */,
+			);
+			path = SwsBannerViewUITests;
+			sourceTree = "<group>";
+		};
+		DA2405BA1DDD39B3003A3259 /* BannerView */ = {
+			isa = PBXGroup;
+			children = (
+				DA2405B71DDD39AC003A3259 /* SwsBannerView.h */,
+				DA2405B81DDD39AC003A3259 /* SwsBannerView.m */,
+			);
+			name = BannerView;
+			sourceTree = "<group>";
+		};
+		DA2405BB1DDD3B2D003A3259 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA2405BC1DDD3B4A003A3259 /* BannerModel.h */,
+				DA2405BD1DDD3B4A003A3259 /* BannerModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DA2405CB1DDDADE1003A3259 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DA2405C41DDDA9BB003A3259 /* 0.jpg */,
+				DA2405BF1DDDA9BB003A3259 /* 1.jpg */,
+				DA2405C01DDDA9BB003A3259 /* 2.jpg */,
+				DA2405C11DDDA9BB003A3259 /* 3.jpg */,
+				DA2405C21DDDA9BB003A3259 /* 4.jpg */,
+				DA2405C31DDDA9BB003A3259 /* 5.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA2405801DDD3996003A3259 /* SwsBannerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2405AE1DDD3996003A3259 /* Build configuration list for PBXNativeTarget "SwsBannerView" */;
+			buildPhases = (
+				DA24057D1DDD3996003A3259 /* Sources */,
+				DA24057E1DDD3996003A3259 /* Frameworks */,
+				DA24057F1DDD3996003A3259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwsBannerView;
+			productName = SwsBannerView;
+			productReference = DA2405811DDD3996003A3259 /* SwsBannerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA2405991DDD3996003A3259 /* SwsBannerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2405B11DDD3996003A3259 /* Build configuration list for PBXNativeTarget "SwsBannerViewTests" */;
+			buildPhases = (
+				DA2405961DDD3996003A3259 /* Sources */,
+				DA2405971DDD3996003A3259 /* Frameworks */,
+				DA2405981DDD3996003A3259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA24059C1DDD3996003A3259 /* PBXTargetDependency */,
+			);
+			name = SwsBannerViewTests;
+			productName = SwsBannerViewTests;
+			productReference = DA24059A1DDD3996003A3259 /* SwsBannerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA2405A41DDD3996003A3259 /* SwsBannerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2405B41DDD3996003A3259 /* Build configuration list for PBXNativeTarget "SwsBannerViewUITests" */;
+			buildPhases = (
+				DA2405A11DDD3996003A3259 /* Sources */,
+				DA2405A21DDD3996003A3259 /* Frameworks */,
+				DA2405A31DDD3996003A3259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA2405A71DDD3996003A3259 /* PBXTargetDependency */,
+			);
+			name = SwsBannerViewUITests;
+			productName = SwsBannerViewUITests;
+			productReference = DA2405A51DDD3996003A3259 /* SwsBannerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA2405791DDD3996003A3259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SJYT;
+				TargetAttributes = {
+					DA2405801DDD3996003A3259 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8W62LB8U67;
+					};
+					DA2405991DDD3996003A3259 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8W62LB8U67;
+						TestTargetID = DA2405801DDD3996003A3259;
+					};
+					DA2405A41DDD3996003A3259 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8W62LB8U67;
+						TestTargetID = DA2405801DDD3996003A3259;
+					};
+				};
+			};
+			buildConfigurationList = DA24057C1DDD3996003A3259 /* Build configuration list for PBXProject "SwsBannerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA2405781DDD3996003A3259;
+			productRefGroup = DA2405821DDD3996003A3259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA2405801DDD3996003A3259 /* SwsBannerView */,
+				DA2405991DDD3996003A3259 /* SwsBannerViewTests */,
+				DA2405A41DDD3996003A3259 /* SwsBannerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA24057F1DDD3996003A3259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2405941DDD3996003A3259 /* LaunchScreen.storyboard in Resources */,
+				DA2405C91DDDA9BB003A3259 /* 5.jpg in Resources */,
+				DA2405C81DDDA9BB003A3259 /* 4.jpg in Resources */,
+				DA2405CA1DDDA9BB003A3259 /* 0.jpg in Resources */,
+				DA2405C51DDDA9BB003A3259 /* 1.jpg in Resources */,
+				DA2405C61DDDA9BB003A3259 /* 2.jpg in Resources */,
+				DA2405C71DDDA9BB003A3259 /* 3.jpg in Resources */,
+				DA2405911DDD3996003A3259 /* Assets.xcassets in Resources */,
+				DA24058F1DDD3996003A3259 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2405981DDD3996003A3259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2405A31DDD3996003A3259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA24057D1DDD3996003A3259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2405B91DDD39AC003A3259 /* SwsBannerView.m in Sources */,
+				DA24058C1DDD3996003A3259 /* ViewController.m in Sources */,
+				DA2405891DDD3996003A3259 /* AppDelegate.m in Sources */,
+				DA2405861DDD3996003A3259 /* main.m in Sources */,
+				DA2405BE1DDD3B4A003A3259 /* BannerModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2405961DDD3996003A3259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA24059F1DDD3996003A3259 /* SwsBannerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2405A11DDD3996003A3259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2405AA1DDD3996003A3259 /* SwsBannerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA24059C1DDD3996003A3259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA2405801DDD3996003A3259 /* SwsBannerView */;
+			targetProxy = DA24059B1DDD3996003A3259 /* PBXContainerItemProxy */;
+		};
+		DA2405A71DDD3996003A3259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA2405801DDD3996003A3259 /* SwsBannerView */;
+			targetProxy = DA2405A61DDD3996003A3259 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA24058D1DDD3996003A3259 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA24058E1DDD3996003A3259 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA2405921DDD3996003A3259 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA2405931DDD3996003A3259 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA2405AC1DDD3996003A3259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA2405AD1DDD3996003A3259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA2405AF1DDD3996003A3259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwsBannerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SJYT.SwsBannerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA2405B01DDD3996003A3259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwsBannerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SJYT.SwsBannerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA2405B21DDD3996003A3259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwsBannerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SJYT.SwsBannerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwsBannerView.app/SwsBannerView";
+			};
+			name = Debug;
+		};
+		DA2405B31DDD3996003A3259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwsBannerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SJYT.SwsBannerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwsBannerView.app/SwsBannerView";
+			};
+			name = Release;
+		};
+		DA2405B51DDD3996003A3259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwsBannerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SJYT.SwsBannerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwsBannerView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DA2405B61DDD3996003A3259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwsBannerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SJYT.SwsBannerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwsBannerView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA24057C1DDD3996003A3259 /* Build configuration list for PBXProject "SwsBannerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2405AC1DDD3996003A3259 /* Debug */,
+				DA2405AD1DDD3996003A3259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2405AE1DDD3996003A3259 /* Build configuration list for PBXNativeTarget "SwsBannerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2405AF1DDD3996003A3259 /* Debug */,
+				DA2405B01DDD3996003A3259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2405B11DDD3996003A3259 /* Build configuration list for PBXNativeTarget "SwsBannerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2405B21DDD3996003A3259 /* Debug */,
+				DA2405B31DDD3996003A3259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2405B41DDD3996003A3259 /* Build configuration list for PBXNativeTarget "SwsBannerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2405B51DDD3996003A3259 /* Debug */,
+				DA2405B61DDD3996003A3259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA2405791DDD3996003A3259 /* Project object */;
+}
